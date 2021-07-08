@@ -31,7 +31,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm AnyDL Bot
 
-I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
+I can download video or audio from Youtube, Pornhub and Xhamster. Made by @Kaizerleon.
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -39,10 +39,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Owner", url="https://t.me/Kaizerleon")
                                     ],[
                                       InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Contact Owner", url="https://t.me/Kaizerleon")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -57,7 +57,7 @@ async def help(client, message):
 
 Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
 
-Join @Infinity_BOTs</b>""",
+Contact @Kaizerleon</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
